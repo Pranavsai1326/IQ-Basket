@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+ecommerce_analytics.db
+.claude/
+
+# Raw/cleaned data can be regenerated from Kaggle via the scripts;
+# excluded to keep the repo small.
+data/raw/*.csv
+data/cleaned/*.csv
